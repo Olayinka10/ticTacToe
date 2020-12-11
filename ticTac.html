@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="ticTac.css">
+</head>
+<body>
+    <p>
+        <img src="image/464824614_560957.jpg" alt="">
+    </p>
+<div>
+    <h1>TIC-TAC-TOE</h1>
+    <input type="text" id="inp1" placeholder="player1">
+    <input type="text" id="inp2" placeholder="player2"><br>
+    <input type="text" id="inp3" placeholder="Character1">
+    <input type="text" id="inp4" placeholder="Character2">
+    <input type="button" value="Start" id="start" onclick="start(event)"> <br>
+     <span id="name1"></span><br>
+     <span id="luck"></span> <br>
+
+   <table >
+      <tr>
+            <td  onclick="gameState(event)" id="butn1"></td>
+            <td  onclick="gameState(event)" id="butn2"></td>
+            <td  onclick="gameState(event)" id="butn3"></td>
+      </tr>
+      <tr>
+            <td  onclick="gameState(event)" id="butn4"></td>
+            <td  onclick="gameState(event)" id="butn5"></td>
+            <td  onclick="gameState(event)" id="butn6"></td>
+      </tr>
+      <tr>
+            <td  onclick="gameState(event)" id="butn7"></td>
+            <td  onclick="gameState(event)" id="butn8"></td>
+            <td  onclick="gameState(event)" id="butn9"></td>
+        </tr>
+    </table>
+            <input type="text" name="" id="score1" class="score" disabled>
+            <span id="fist"></span> <span id="hy"> </span> <span id="sec"></span>
+            <input type="text" name="" disabled id="score2" class="score"><br>
+            <button onclick="replay()" id="end">Replay</button>
+</div>
+<h6>Made by Olayinka Babatunde &copy; 2020</h6>
+
+</body>
+<script src="ticTac.js"></script>
+</html>
